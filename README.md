@@ -11,26 +11,26 @@ You Can Generate Your Key From Here : https://console.developers.google.com/apis
 3 . Open createSearchableMap.js go to Row {78} and put Your Key At the value Of Var Key<br>
   var key = "YOUR_KEY_HERE";<br>
 # File Stracture
- *Root
- /assets
-  -css
-    /---
-        -bootstrap.min.css
-        -reset.css
-        -style.css
-  -js
-    /---
-        -bootstrap.bundle.min.js
-        -bootstrap.min.js
-        -form.js        
-        -jquery.min.js
-  -images
-    /---
-        -logo.png
-        -logog.png
-
- -createSearchableMap.js  //include All  Maps Functions and Search functions
- -GetLocations.php        // include php & Mysqli query to get loctions from database
- -import.php              // function to import -CSV- file To Database 
- -index.php
- -project.zip
+ *Root<br>
+ /assets<br>
+  -css<br>
+    /---<br>
+        -bootstrap.min.css<br>
+        -reset.css<br>
+        -style.css<br>
+  -js<br>
+    /---<br>
+        -bootstrap.bundle.min.js<br>
+        -bootstrap.min.js<br>
+        -form.js        <br>
+        -jquery.min.js<br>
+  -images<br>
+    /---<br>
+        -logo.png<br>
+        -logog.png<br>
+<br>
+ -createSearchableMap.js  //include All  Maps Functions and Search functions<br>
+ -GetLocations.php        // include php & Mysqli query to get loctions from database<br>
+ -import.php              // function to import -CSV- file To Database <br>
+ -index.php<br>
+ -project.zip<br>
