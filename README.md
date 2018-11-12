@@ -1,4 +1,4 @@
-# Google-Api-Maps-Places-Fine-Near-Me
+# Google-Api-Maps-Places-Find-Near-Me
 Google Api Maps Places Fine Near Me is Project Made For Help To locate The places in maps you added to DataBase 
 # How To Change Api Key 
 1 . You Should Change The Api Key {<br>
@@ -10,4 +10,27 @@ You Can Generate Your Key From Here : https://console.developers.google.com/apis
 <script defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=YOUR_KEY_HERE&callback=createSearchableMap"></script><br>
 3 . Open createSearchableMap.js go to Row {78} and put Your Key At the value Of Var Key<br>
   var key = "YOUR_KEY_HERE";<br>
-# 
+# File Stracture
+ *Root
+ /assets
+  -css
+    /---
+        -bootstrap.min.css
+        -reset.css
+        -style.css
+  -js
+    /---
+        -bootstrap.bundle.min.js
+        -bootstrap.min.js
+        -form.js        
+        -jquery.min.js
+  -images
+    /---
+        -logo.png
+        -logog.png
+
+ -createSearchableMap.js  //include All  Maps Functions and Search functions
+ -GetLocations.php        // include php & Mysqli query to get loctions from database
+ -import.php              // function to import -CSV- file To Database 
+ -index.php
+ -project.zip
